@@ -85,7 +85,12 @@ public class ProgramaYankay {
                     System.out.println("ACUMULATIVO:");
                     System.out.println(":|"+ promedio1 + "|"); 
                     System.out.println("EVALUACION: (Suspenso)");
+                    do {
                     evaluacion = num.nextFloat();
+                    if (evaluacion >10 || evaluacion <0){
+                        System.out.println("Error: nota fuera del limite");
+                    }
+                    } while (evaluacion > 10 || evaluacion <0);
                     System.out.println("PROMEDIO");
                     promedioF = (evaluacion + promedio1)/2; 
                     if (promedioF < 7 )
@@ -143,7 +148,12 @@ public class ProgramaYankay {
                     System.out.println("ACUMULATIVO:");
                     System.out.println(":|"+ promedio2 + "|"); 
                     System.out.println("EVALUACION: (Suspenso)");
+                    do {
                     evaluacion = num.nextFloat();
+                    if (evaluacion >10 || evaluacion <0){
+                        System.out.println("Error: nota fuera del limite");
+                    }
+                    } while (evaluacion > 10 || evaluacion <0);
                     System.out.println("PROMEDIO");
                     promedioF = (evaluacion + promedio2)/2; 
                     if (promedioF < 7 )
@@ -201,7 +211,12 @@ public class ProgramaYankay {
                     System.out.println("ACUMULATIVO:");
                     System.out.println(":|"+ promedio3 + "|"); 
                     System.out.println("EVALUACION: (Suspenso)");
+                    do {
                     evaluacion = num.nextFloat();
+                    if (evaluacion >10 || evaluacion <0){
+                        System.out.println("Error: nota fuera del limite");
+                    }
+                    } while (evaluacion > 10 || evaluacion <0);
                     System.out.println("PROMEDIO");
                     promedioF = (evaluacion + promedio3)/2; 
                     if (promedioF < 7 )
@@ -260,7 +275,12 @@ public class ProgramaYankay {
                     System.out.println("ACUMULATIVO:");
                     System.out.println(":|"+ promedio4 + "|"); 
                     System.out.println("EVALUACION: (Suspenso)");
+                    do {
                     evaluacion = num.nextFloat();
+                    if (evaluacion >10 || evaluacion <0){
+                        System.out.println("Error: nota fuera del limite");
+                    }
+                    } while (evaluacion > 10 || evaluacion <0);
                     System.out.println("PROMEDIO");
                     promedioF = (evaluacion + promedio4)/2; 
                     if (promedioF < 7 )
@@ -318,7 +338,12 @@ public class ProgramaYankay {
                     System.out.println("ACUMULATIVO:");
                     System.out.println(":|"+ promedio5 + "|"); 
                     System.out.println("EVALUACION: (Suspenso)");
+                    do {
                     evaluacion = num.nextFloat();
+                    if (evaluacion >10 || evaluacion <0){
+                        System.out.println("Error: nota fuera del limite");
+                    }
+                    } while (evaluacion > 10 || evaluacion <0);
                     System.out.println("PROMEDIO");
                     promedioF = (evaluacion + promedio5)/2; 
                     if (promedioF < 7 )
@@ -376,7 +401,12 @@ public class ProgramaYankay {
                     System.out.println("ACUMULATIVO:");
                     System.out.println(":|"+ promedio6 + "|"); 
                     System.out.println("EVALUACION: (Suspenso)");
+                    do {
                     evaluacion = num.nextFloat();
+                    if (evaluacion >10 || evaluacion <0){
+                        System.out.println("Error: nota fuera del limite");
+                    }
+                    } while (evaluacion > 10 || evaluacion <0);
                     System.out.println("PROMEDIO");
                     promedioF = (evaluacion + promedio6)/2; 
                     if (promedioF < 7 )
@@ -434,7 +464,12 @@ public class ProgramaYankay {
                     System.out.println("ACUMULATIVO:");
                     System.out.println(":|"+ promedio7 + "|"); 
                     System.out.println("EVALUACION: (Suspenso)");
+                    do {
                     evaluacion = num.nextFloat();
+                    if (evaluacion >10 || evaluacion <0){
+                        System.out.println("Error: nota fuera del limite");
+                    }
+                    } while (evaluacion > 10 || evaluacion <0);
                     System.out.println("PROMEDIO");
                     promedioF = (evaluacion + promedio7)/2; 
                     if (promedioF < 7 )
